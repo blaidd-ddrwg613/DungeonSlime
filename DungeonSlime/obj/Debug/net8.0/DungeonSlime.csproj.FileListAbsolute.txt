@@ -34,3 +34,4 @@ C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\MonoGameLibrary.pdb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\logo.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas_sprites.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas-definition.xml
+C:\Code\DungeonSlime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.sourcelink.json
