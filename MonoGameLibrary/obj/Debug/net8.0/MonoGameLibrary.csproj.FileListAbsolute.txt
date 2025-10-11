@@ -11,3 +11,16 @@ C:\Code\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\refint\MonoGameLibrary.dll
 C:\Code\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.pdb
 C:\Code\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\ref\MonoGameLibrary.dll
 C:\Code\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.sourcelink.json
+D:\MonoGame\DungeonSlime\MonoGameLibrary\bin\Debug\net8.0\MonoGameLibrary.deps.json
+D:\MonoGame\DungeonSlime\MonoGameLibrary\bin\Debug\net8.0\MonoGameLibrary.dll
+D:\MonoGame\DungeonSlime\MonoGameLibrary\bin\Debug\net8.0\MonoGameLibrary.pdb
+D:\MonoGame\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.csproj.AssemblyReference.cache
+D:\MonoGame\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\MonoGame\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.AssemblyInfoInputs.cache
+D:\MonoGame\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.AssemblyInfo.cs
+D:\MonoGame\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.csproj.CoreCompileInputs.cache
+D:\MonoGame\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.sourcelink.json
+D:\MonoGame\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.dll
+D:\MonoGame\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\refint\MonoGameLibrary.dll
+D:\MonoGame\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.pdb
+D:\MonoGame\DungeonSlime\MonoGameLibrary\obj\Debug\net8.0\ref\MonoGameLibrary.dll
