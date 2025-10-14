@@ -72,3 +72,5 @@ D:\MonoGame\DungeonSlime\DungeonSlime\obj\Debug\net8.0\refint\DungeonSlime.dll
 D:\MonoGame\DungeonSlime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.pdb
 D:\MonoGame\DungeonSlime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.genruntimeconfig.cache
 D:\MonoGame\DungeonSlime\DungeonSlime\obj\Debug\net8.0\ref\DungeonSlime.dll
+D:\MonoGame\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas.xnb
+D:\MonoGame\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\tilemap-definition.xml

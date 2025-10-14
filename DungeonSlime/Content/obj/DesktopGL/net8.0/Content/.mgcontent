@@ -5,9 +5,11 @@
   <Config />
   <SourceFiles>
     <File>D:/MonoGame/DungeonSlime/DungeonSlime/Content/images/atlas_sprites.png</File>
+    <File>D:/MonoGame/DungeonSlime/DungeonSlime/Content/images/atlas.png</File>
     <File>D:/MonoGame/DungeonSlime/DungeonSlime/Content/images/logo.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
