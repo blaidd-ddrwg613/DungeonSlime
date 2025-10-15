@@ -1,0 +1,10 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Code/DungeonSlime/DungeonSlime/Content/audio/bounce.wav","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/audio/bounce.xnb","SoundEffectProcessor","SoundEffectContent",50664,50725,0.2306036
+"C:/Code/DungeonSlime/DungeonSlime/Content/audio/collect.wav","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/audio/collect.xnb","SoundEffectProcessor","SoundEffectContent",22092,22153,0.1069189
+"C:/Code/DungeonSlime/DungeonSlime/Content/audio/theme.ogg","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/audio/theme.xnb","SongProcessor","SongContent",1079706,123,0.6546442
+"C:/Code/DungeonSlime/DungeonSlime/Content/fonts/04B_30.spritefont","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/fonts/04B_30.xnb","LocalizedFontProcessor","SpriteFontContent",2497,931,0.0710681
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas_sprites.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/images/atlas_sprites.xnb","TextureProcessor","Texture2DContent",590,16469,0.0168953
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas-definition.xml","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\images/atlas-definition.xml","CopyItem","File",887,887,0.0015116
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/images/atlas.xnb","TextureProcessor","Texture2DContent",1844,65621,0.0105362
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/logo.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/images/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.0108556
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/tilemap-definition.xml","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\images/tilemap-definition.xml","CopyItem","File",652,652,0.0008499

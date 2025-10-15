@@ -80,3 +80,4 @@ C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\audio\collect.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\audio\theme.ogg
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\audio\theme.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas.xnb
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\fonts\04B_30.xnb
