@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/MonoGame/DungeonSlime/DungeonSlime/Content/images/atlas.png</SourceFile>
-  <SourceTime>2025-10-14T12:50:35.7025769-04:00</SourceTime>
-  <DestFile>D:/MonoGame/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/atlas.xnb</DestFile>
-  <DestTime>2025-10-14T12:53:36.42251-04:00</DestTime>
+  <SourceFile>C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas.png</SourceFile>
+  <SourceTime>2025-10-14T20:52:13.9172866-04:00</SourceTime>
+  <DestFile>C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/atlas.xnb</DestFile>
+  <DestTime>2025-10-15T03:13:10.2806226-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-06-02T06:31:02-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

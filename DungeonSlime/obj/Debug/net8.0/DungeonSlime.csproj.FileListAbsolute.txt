@@ -74,3 +74,9 @@ D:\MonoGame\DungeonSlime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.genruntimeco
 D:\MonoGame\DungeonSlime\DungeonSlime\obj\Debug\net8.0\ref\DungeonSlime.dll
 D:\MonoGame\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas.xnb
 D:\MonoGame\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\tilemap-definition.xml
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\tilemap-definition.xml
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\audio\bounce.xnb
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\audio\collect.xnb
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\audio\theme.ogg
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\audio\theme.xnb
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas.xnb
