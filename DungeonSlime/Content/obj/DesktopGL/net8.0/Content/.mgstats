@@ -3,7 +3,7 @@ Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Siz
 "C:/Code/DungeonSlime/DungeonSlime/Content/audio/collect.wav","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/audio/collect.xnb","SoundEffectProcessor","SoundEffectContent",22092,22153,0.1093041
 "C:/Code/DungeonSlime/DungeonSlime/Content/audio/theme.ogg","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/audio/theme.xnb","SongProcessor","SongContent",1079706,123,0.6830657
 "C:/Code/DungeonSlime/DungeonSlime/Content/fonts/04B_30_5x.spritefont","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/fonts/04B_30_5x.xnb","FontDescriptionProcessor","SpriteFontContent",2075,1053721,0.2148347
-"C:/Code/DungeonSlime/DungeonSlime/Content/fonts/04B_30.spritefont","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/fonts/04B_30.xnb","LocalizedFontProcessor","SpriteFontContent",2503,70681,0.1493469
+"C:/Code/DungeonSlime/DungeonSlime/Content/fonts/04B_30.spritefont","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/fonts/04B_30.xnb","LocalizedFontProcessor","SpriteFontContent",2503,70681,0.166471
 "C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas_sprites.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/atlas_sprites.xnb","TextureProcessor","Texture2DContent",590,16469,0.0266862
 "C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/atlas.xnb","TextureProcessor","Texture2DContent",1844,65621,0.0084698
 "C:/Code/DungeonSlime/DungeonSlime/Content/images/logo.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.0111813
