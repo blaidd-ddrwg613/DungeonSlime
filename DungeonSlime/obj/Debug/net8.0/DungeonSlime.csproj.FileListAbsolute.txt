@@ -89,3 +89,4 @@ C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\FlatRedBall.InterpolationCore
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\MonoGameGum.dll
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\TextCopy.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\fonts\04b_30.fnt

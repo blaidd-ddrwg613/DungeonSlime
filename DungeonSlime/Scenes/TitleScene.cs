@@ -1,4 +1,5 @@
 ﻿using System;
+using DungeonSlime.UI;
 using Gum.Forms.Controls;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
@@ -7,6 +8,7 @@ using Microsoft.Xna.Framework.Input;
 using MonoGameGum;
 using MonoGameGum.GueDeriving;
 using MonoGameLibrary;
+using MonoGameLibrary.Graphics;
 using MonoGameLibrary.Input;
 using MonoGameLibrary.Scenes;
 
@@ -60,9 +62,16 @@ public class TitleScene : Scene
 
     private Panel _optionsPanel;
 
-    private Button _optionsButton;
 
-    private Button _optionsBackButton;
+// The options button used to open the options menu.
+    private AnimatedButton _optionsButton;
+
+// The back button used to exit the options menu back to the title menu.
+    private AnimatedButton _optionsBackButton;
+
+// Reference to the texture atlas that we can pass to UI elements when they
+// are created.
+    private TextureAtlas _atlas;
     
     
 
@@ -120,6 +129,9 @@ public class TitleScene : Scene
         
         // Load the sound effect to play when ui actions occur.
         _uiSoundEffect = Core.Content.Load<SoundEffect>("audio/ui");
+        
+        // Load the texture atlas from the xml configuration file.
+        _atlas = TextureAtlas.FromFile(Core.Content, "images/atlas-definition.xml");
     }
     
     public override void Update(GameTime gameTime)
@@ -180,25 +192,23 @@ public class TitleScene : Scene
 
     private void CreateTitlePanel()
     {
-        // Create a container to hold all our buttons
+        // Create a container to hold all of our buttons
         _titleScreenButtonsPanel = new Panel();
         _titleScreenButtonsPanel.Dock(Gum.Wireframe.Dock.Fill);
         _titleScreenButtonsPanel.AddToRoot();
 
-        var startButton = new Button();
+        AnimatedButton startButton = new AnimatedButton(_atlas);
         startButton.Anchor(Gum.Wireframe.Anchor.BottomLeft);
         startButton.Visual.X = 50;
         startButton.Visual.Y = -12;
-        startButton.Visual.Width = 70;
         startButton.Text = "Start";
         startButton.Click += HandleStartClicked;
         _titleScreenButtonsPanel.AddChild(startButton);
 
-        _optionsButton = new Button();
+        _optionsButton = new AnimatedButton(_atlas);
         _optionsButton.Anchor(Gum.Wireframe.Anchor.BottomRight);
         _optionsButton.Visual.X = -50;
         _optionsButton.Visual.Y = -12;
-        _optionsButton.Visual.Width = 70;
         _optionsButton.Text = "Options";
         _optionsButton.Click += HandleOptionsClicked;
         _titleScreenButtonsPanel.AddChild(_optionsButton);
@@ -213,13 +223,18 @@ public class TitleScene : Scene
         _optionsPanel.IsVisible = false;
         _optionsPanel.AddToRoot();
 
-        var optionsText = new TextRuntime();
+        TextRuntime optionsText = new TextRuntime();
         optionsText.X = 10;
         optionsText.Y = 10;
         optionsText.Text = "OPTIONS";
+        optionsText.UseCustomFont = true;
+        optionsText.FontScale = 0.5f;
+        optionsText.CustomFontFile = @"fonts/04b_30.fnt";
         _optionsPanel.AddChild(optionsText);
 
-        var musicSlider = new Slider();
+        OptionsSlider musicSlider = new OptionsSlider(_atlas);
+        musicSlider.Name = "MusicSlider";
+        musicSlider.Text = "MUSIC";
         musicSlider.Anchor(Gum.Wireframe.Anchor.Top);
         musicSlider.Visual.Y = 30f;
         musicSlider.Minimum = 0;
@@ -231,15 +246,9 @@ public class TitleScene : Scene
         musicSlider.ValueChangeCompleted += HandleMusicSliderValueChangeCompleted;
         _optionsPanel.AddChild(musicSlider);
 
-        var musicText = new TextRuntime();
-        musicText.Anchor(Gum.Wireframe.Anchor.TopLeft);
-        musicText.X = 60;
-        musicText.Y = musicSlider.Y;
-        musicText.Text = "Music";
-        _optionsPanel.AddChild(musicText);
-        
-        
-        var sfxSlider = new Slider();
+        OptionsSlider sfxSlider = new OptionsSlider(_atlas);
+        sfxSlider.Name = "SfxSlider";
+        sfxSlider.Text = "SFX";
         sfxSlider.Anchor(Gum.Wireframe.Anchor.Top);
         sfxSlider.Visual.Y = 93;
         sfxSlider.Minimum = 0;
@@ -251,14 +260,7 @@ public class TitleScene : Scene
         sfxSlider.ValueChangeCompleted += HandleSfxSliderChangeCompleted;
         _optionsPanel.AddChild(sfxSlider);
 
-        var sfxText = new TextRuntime();
-        sfxText.Anchor(Gum.Wireframe.Anchor.TopLeft);
-        sfxText.X = 60f;
-        sfxText.Y = sfxSlider.Y;
-        sfxText.Text = "Sfx";
-        _optionsPanel.AddChild(sfxText);
-
-        _optionsBackButton = new Button();
+        _optionsBackButton = new AnimatedButton(_atlas);
         _optionsBackButton.Text = "BACK";
         _optionsBackButton.Anchor(Gum.Wireframe.Anchor.BottomRight);
         _optionsBackButton.X = -28f;
