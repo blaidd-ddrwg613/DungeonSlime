@@ -83,3 +83,9 @@ C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\fonts\04B_30.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\fonts\04B_30_5x.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\background-pattern.xnb
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\audio\ui.xnb
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\GumCommon.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\FlatRedBall.InterpolationCore.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\MonoGameGum.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\TextCopy.dll
