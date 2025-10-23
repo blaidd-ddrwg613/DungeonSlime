@@ -42,7 +42,9 @@ public class Core : Game
     /// <summary>
     /// Gets the content manager used to load global assets.
     /// </summary>
-    public static new ContentManager Content { get; private set; }
+    public new static ContentManager Content { get; private set; }
+    
+    public static GameTime GameTime { get; set; }
 
     /// <summary>
     /// Gets a reference to to the input management system.
@@ -102,12 +104,13 @@ public class Core : Game
         IsMouseVisible = true;
 
         // Exit on escape is true by default
-        ExitOnEscape = true;        
+        ExitOnEscape = true;
     }
 
     protected override void Initialize()
     {
         base.Initialize();
+        
 
         // Set the core's graphics device to a reference of the base Game's
         // graphics device.
@@ -133,6 +136,7 @@ public class Core : Game
 
     protected override void Update(GameTime gameTime)
     {
+        GameTime = gameTime;
         // Update the input manager.
         Input.Update(gameTime);
 

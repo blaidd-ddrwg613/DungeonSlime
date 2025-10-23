@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonSlime", "DungeonSlim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameLibrary", "MonoGameLibrary\MonoGameLibrary.csproj", "{2EAF88FC-F3EE-4138-ACDA-D5EA1332AD53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong", "Pong\Pong.csproj", "{70D29468-A9DD-41E9-8E1A-3E7CABFCBF8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{2EAF88FC-F3EE-4138-ACDA-D5EA1332AD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EAF88FC-F3EE-4138-ACDA-D5EA1332AD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EAF88FC-F3EE-4138-ACDA-D5EA1332AD53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D29468-A9DD-41E9-8E1A-3E7CABFCBF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D29468-A9DD-41E9-8E1A-3E7CABFCBF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D29468-A9DD-41E9-8E1A-3E7CABFCBF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D29468-A9DD-41E9-8E1A-3E7CABFCBF8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
