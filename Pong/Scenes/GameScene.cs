@@ -9,13 +9,22 @@ namespace Pong.Scenes;
 
 public class GameScene : Scene
 {
-    private Sprite _square;
 
-    private Vector2 _pos = new Vector2(50, 50);
+    private Rect _rect;
 
     public override void Initialize()
     {
         base.Initialize();
+
+        _rect = new Rect
+        {
+            Position = new Vector2(1,1),
+            Scale = default,
+            Width = 100,
+            Height = 100,
+            Origin = default,
+            Roation = default
+        };
 
         Core.ExitOnEscape = false;
     }
@@ -23,11 +32,6 @@ public class GameScene : Scene
     public override void LoadContent()
     {
         base.LoadContent();
-
-        Texture2D squareTexture = Content.Load<Texture2D>("textures/square");
-        TextureRegion textureRegion = new TextureRegion(squareTexture, 0, 0, squareTexture.Width, squareTexture.Height);
-
-        _square = new Sprite(textureRegion);
     }
 
     public override void Update(GameTime gameTime)
@@ -48,7 +52,7 @@ public class GameScene : Scene
         // Begin the sprite batch to prepare for rendering.
         Core.SpriteBatch.Begin(samplerState: SamplerState.PointClamp);
         
-        _square.Draw(Core.SpriteBatch, _pos);
+        _rect.Draw(Color.Purple);
 
         // Always end the sprite batch when finished.
         Core.SpriteBatch.End();
