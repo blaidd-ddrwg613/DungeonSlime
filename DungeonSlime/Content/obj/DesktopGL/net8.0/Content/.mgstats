@@ -1,0 +1,6 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas-definition.xml","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\Content\images/atlas-definition.xml","CopyItem","File",834,834,0.0008049
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/atlas.xnb","TextureProcessor","Texture2DContent",590,16469,0.092131
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/logo.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.1063657
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-characters-default.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/spritesheet-characters.xnb","TextureProcessor","Texture2DContent",69705,3254501,0.1796613
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-characters.xml","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\Content\images/spritesheet-characters.xml","CopyItem","File",710,710,0.0011607

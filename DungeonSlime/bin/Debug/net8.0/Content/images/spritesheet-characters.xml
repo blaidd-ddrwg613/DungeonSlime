@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas>
+  <Texture>images/spritesheet-characters</Texture>
+  <Regions>
+    <Region name="front" x="384" y="0" width="128" height="128" />
+    <Region name="idle" x="640" y="0" width="128" height="128" />
+    <Region name="walk-a" x="0" y="128" width="128" height="128" />
+    <Region name="walk-b" x="128" y="128" width="128" height="128" />
+  </Regions>
+  <Animations>
+    <Animation name="idle" delay="500">
+      <Frame region="front" />
+      <Frame region="idle" />
+    </Animation>
+    <Animation name="walk" delay="200">
+      <Frame region="walk-a" />
+      <Frame region="walk-b" />
+    </Animation>
+  </Animations>
+</TextureAtlas>
