@@ -10,3 +10,4 @@ C:\Code\DungeonSlime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Librar
 C:\Code\DungeonSlime\MonoGame Game Library\obj\Debug\net8.0\refint\MonoGame Game Library.dll
 C:\Code\DungeonSlime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.pdb
 C:\Code\DungeonSlime\MonoGame Game Library\obj\Debug\net8.0\ref\MonoGame Game Library.dll
+C:\Code\DungeonSlime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.sourcelink.json

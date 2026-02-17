@@ -38,3 +38,4 @@ C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas-definition.xml
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\spritesheet-characters.xml
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\spritesheet-characters.xnb
+C:\Code\DungeonSlime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.sourcelink.json
