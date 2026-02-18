@@ -55,3 +55,6 @@
 #begin images/spritesheet-characters.xml
 /copy:images/spritesheet-characters.xml
 
+#begin images/tilemap-definition.xml
+/copy:images/tilemap-definition.xml
+
