@@ -7,10 +7,12 @@
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas.png</File>
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/logo.png</File>
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-characters-default.png</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-tiles-default.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File>images/spritesheet-characters.png</File>
+    <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "LDtkMonogame": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
             "MonoGame.Framework.DesktopGL": {
               "suppressParent": "All",
               "target": "Package",

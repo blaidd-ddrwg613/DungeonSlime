@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "LDtkMonogame/1.8.1": {
+        "type": "package",
+        "dependencies": {
+          "MonoGame.Framework.DesktopGL": "3.8.4.1"
+        },
+        "compile": {
+          "lib/net8.0/LDtkMonogame.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/LDtkMonogame.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MonoGame.Framework.DesktopGL/3.8.4.1": {
         "type": "package",
         "dependencies": {
@@ -127,6 +143,21 @@
     }
   },
   "libraries": {
+    "LDtkMonogame/1.8.1": {
+      "sha512": "xADTvwDdI3YdqSDXZAp3pHkv4hssPs1Er6E+i8N1LLrE/uLeAKtdYM2fHPVInphSi4XgN+zrt6lBztqkj+h2cg==",
+      "type": "package",
+      "path": "ldtkmonogame/1.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "ldtkmonogame.1.8.1.nupkg.sha512",
+        "ldtkmonogame.nuspec",
+        "lib/net8.0/LDtkMonogame.dll",
+        "lib/net8.0/LDtkMonogame.xml",
+        "readme.md"
+      ]
+    },
     "MonoGame.Framework.DesktopGL/3.8.4.1": {
       "sha512": "YybxIIT5+Ky78E/XdkS0glyluMr2EeDZwx2LqXULAOCqiKt1+aDrjPZaqLL5qpNgBcMEHUeZJ4YjWe4TAZlWLw==",
       "type": "package",
@@ -269,6 +300,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "LDtkMonogame >= 1.8.1",
       "MonoGame.Framework.DesktopGL >= 3.8.*"
     ]
   },
@@ -322,6 +354,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "LDtkMonogame": {
+            "target": "Package",
+            "version": "[1.8.1, )"
+          },
           "MonoGame.Framework.DesktopGL": {
             "suppressParent": "All",
             "target": "Package",

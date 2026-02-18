@@ -1,7 +1,9 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas-definition.xml","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\Content\images/atlas-definition.xml","CopyItem","File",834,834,0.0008049
-"C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/atlas.xnb","TextureProcessor","Texture2DContent",1844,65621,0.1060526
-"C:/Code/DungeonSlime/DungeonSlime/Content/images/logo.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.1063657
-"C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-characters-default.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/spritesheet-characters.xnb","TextureProcessor","Texture2DContent",69705,3254501,0.1796613
-"C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-characters.xml","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\Content\images/spritesheet-characters.xml","CopyItem","File",710,710,0.0011607
-"C:/Code/DungeonSlime/DungeonSlime/Content/images/tilemap-definition.xml","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\Content\images/tilemap-definition.xml","CopyItem","File",650,650,0.0012581
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas-definition.xml","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\Content\images/atlas-definition.xml","CopyItem","File",834,834,0.0011044
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/atlas.xnb","TextureProcessor","Texture2DContent",1844,65621,0.0897778
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/logo.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.0104692
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-characters-default.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/spritesheet-characters.xnb","TextureProcessor","Texture2DContent",69705,3254501,0.0705076
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-characters.xml","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\Content\images/spritesheet-characters.xml","CopyItem","File",710,710,0.0005954
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-tiles-default.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/spritesheet-tiles-default.xnb","TextureProcessor","Texture2DContent",111650,5466329,0.1138924
+"C:/Code/DungeonSlime/DungeonSlime/Content/images/tilemap-definition.xml","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\Content\images/tilemap-definition.xml","CopyItem","File",650,650,0.000668
+"C:/Code/DungeonSlime/DungeonSlime/Content/test.ldtk","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/test.xnb","LDtkFileProcessor","LDtkFile",13071,5443,0.165935

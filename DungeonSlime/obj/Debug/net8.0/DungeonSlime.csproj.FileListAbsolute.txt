@@ -39,5 +39,7 @@ C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas-definiti
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\spritesheet-characters.xml
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\spritesheet-characters.xnb
 C:\Code\DungeonSlime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.sourcelink.json
-C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\tilemap-definition.xml.xml
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\tilemap-definition.xml
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\spritesheet-tiles-default.xnb
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\LDtkMonogame.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\test.xnb

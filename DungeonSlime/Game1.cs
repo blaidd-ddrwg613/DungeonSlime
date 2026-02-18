@@ -1,4 +1,7 @@
 ﻿using System;
+using LDtk;
+using LDtk.Renderer;
+using LDtkTypes;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -33,6 +36,9 @@ public class Game1 : Core
 
     private Rectangle _roomBounds;
 
+    private LDtkWorld _world;
+    private ExampleRenderer _renderer;
+
     public Game1() : base("Dungeon Slime", 1280, 720, false)
     {
 
@@ -41,6 +47,17 @@ public class Game1 : Core
     protected override void Initialize()
     {
         base.Initialize();
+        
+        LDtkFile file = LDtkFile.FromFile("test",Content);
+        
+        _world = file.LoadWorld(Worlds.World.Iid);
+
+        _renderer = new ExampleRenderer(SpriteBatch, Content);
+
+        foreach (var level in _world.Levels)
+        {
+            _renderer.PrerenderLevel(level);
+        }
 
         Rectangle screenBounds = GraphicsDevice.PresentationParameters.Bounds;
 
@@ -67,7 +84,7 @@ public class Game1 : Core
     {
         // Create the texture atlas from the XML configuration file.
         TextureAtlas atlas = TextureAtlas.FromFile(Content, "images/atlas-definition.xml");
-
+        
         // Create the slime animated sprite from the atlas.
         _slime = atlas.CreateAnimatedSprite("slime-animation");
         _slime.Scale = new Vector2(4.0f, 4.0f);
@@ -304,16 +321,13 @@ public class Game1 : Core
 
         // Begin the sprite batch to prepare for rendering.
         SpriteBatch.Begin(samplerState: SamplerState.PointClamp);
-        
-        // Draw the tilemap.
-        _tilemap.Draw(SpriteBatch);
 
-
-        // Draw the slime sprite.
-        _slime.Draw(SpriteBatch, _slimePosition);
-
-        // Draw the bat sprite.
-        _bat.Draw(SpriteBatch, _batPosition);
+        {
+            foreach (var level in _world.Levels)
+            {
+                _renderer.RenderPrerenderedLevel(level);
+            }
+        }
 
         // Always end the sprite batch when finished.
         SpriteBatch.End();

@@ -1,15 +1,16 @@
 
 #----------------------------- Global Properties ----------------------------#
 
-/outputDir:bin/$(Platform)
-/intermediateDir:obj/$(Platform)
-/platform:DesktopGL
+/outputDir:bin
+/intermediateDir:obj
+/platform:Windows
 /config:
 /profile:Reach
 /compress:False
 
 #-------------------------------- References --------------------------------#
 
+/reference:C:/Users/danie/.nuget/packages/ldtkmonogame.contentpipeline/1.8.0/lib/net8.0/LDtk.ContentPipeline.dll
 
 #---------------------------------- Content ---------------------------------#
 
@@ -55,6 +56,23 @@
 #begin images/spritesheet-characters.xml
 /copy:images/spritesheet-characters.xml
 
+#begin images/spritesheet-tiles-default.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:images/spritesheet-tiles-default.png
+
 #begin images/tilemap-definition.xml
 /copy:images/tilemap-definition.xml
+
+#begin test.ldtk
+/importer:LDtkFileImporter
+/processor:LDtkFileProcessor
+/build:test.ldtk
 
