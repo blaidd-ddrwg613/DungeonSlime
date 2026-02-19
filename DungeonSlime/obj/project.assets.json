@@ -341,7 +341,7 @@
     "net8.0": [
       "LDtkMonogame >= 1.8.1",
       "MonoGame Game Library >= 1.0.0",
-      "MonoGame.Content.Builder.Task >= 3.8.*",
+      "MonoGame.Content.Builder.Task >= 3.8.4.1",
       "MonoGame.Framework.DesktopGL >= 3.8.*"
     ]
   },
@@ -405,7 +405,7 @@
           },
           "MonoGame.Content.Builder.Task": {
             "target": "Package",
-            "version": "[3.8.*, )"
+            "version": "[3.8.4.1, )"
           },
           "MonoGame.Framework.DesktopGL": {
             "target": "Package",
