@@ -7,6 +7,7 @@
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/Audio/bounce.wav</File>
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/Audio/collect.wav</File>
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/Audio/theme.ogg</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/fonts/04B_30_5x.spritefont</File>
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/fonts/04B_30.spritefont</File>
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas.png</File>
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/logo.png</File>
@@ -15,6 +16,7 @@
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/test.ldtk</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
