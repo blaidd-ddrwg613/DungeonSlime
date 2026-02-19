@@ -1,4 +1,7 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Code/DungeonSlime/DungeonSlime/Content/Audio/bounce.wav","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/Audio/bounce.xnb","SoundEffectProcessor","SoundEffectContent",50664,50725,0.2186323
+"C:/Code/DungeonSlime/DungeonSlime/Content/Audio/collect.wav","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/Audio/collect.xnb","SoundEffectProcessor","SoundEffectContent",22092,22153,0.092097
+"C:/Code/DungeonSlime/DungeonSlime/Content/Audio/theme.ogg","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/Audio/theme.xnb","SongProcessor","SongContent",1079706,123,0.5899534
 "C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas-definition.xml","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\Content\images/atlas-definition.xml","CopyItem","File",834,834,0.0011044
 "C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/atlas.xnb","TextureProcessor","Texture2DContent",1844,65621,0.0897778
 "C:/Code/DungeonSlime/DungeonSlime/Content/images/logo.png","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.0104692

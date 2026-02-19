@@ -1,10 +1,9 @@
 ﻿using System;
-using LDtk;
-using LDtk.Renderer;
-using LDtkTypes;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using MonoGame_Game_Library;
 using MonoGame_Game_Library.Graphics;
 using MonoGame_Game_Library.Input;
@@ -36,8 +35,11 @@ public class Game1 : Core
 
     private Rectangle _roomBounds;
 
-    private LDtkWorld _world;
-    private ExampleRenderer _renderer;
+    private SoundEffect _bounceSoundEffect;
+
+    private SoundEffect _collectSoundEffect;
+
+    private Song _themeSong;
 
     public Game1() : base("Dungeon Slime", 1280, 720, false)
     {
@@ -48,17 +50,6 @@ public class Game1 : Core
     {
         base.Initialize();
         
-        LDtkFile file = LDtkFile.FromFile("test",Content);
-        
-        _world = file.LoadWorld(Worlds.World.Iid);
-
-        _renderer = new ExampleRenderer(SpriteBatch, Content);
-
-        foreach (var level in _world.Levels)
-        {
-            _renderer.PrerenderLevel(level);
-        }
-
         Rectangle screenBounds = GraphicsDevice.PresentationParameters.Bounds;
 
         _roomBounds = new Rectangle(
@@ -78,6 +69,8 @@ public class Game1 : Core
 
         // Assign the initial random velocity to the bat.
         AssignRandomBatVelocity();
+        
+        Audio.PlaySong(_themeSong);
     }
 
     protected override void LoadContent()
@@ -96,6 +89,17 @@ public class Game1 : Core
         // Create the tilemap from the XML configuration file.
         _tilemap = Tilemap.FromFile(Content, "images/tilemap-definition.xml");
         _tilemap.Scale = new Vector2(4.0f, 4.0f);
+
+        _bounceSoundEffect = Content.Load<SoundEffect>("Audio/collect");
+        _collectSoundEffect = Content.Load<SoundEffect>("Audio/bounce");
+        _themeSong = Content.Load<Song>("Audio/theme");
+
+        Song theme = Content.Load<Song>("Audio/theme");
+
+        if (MediaPlayer.State == MediaState.Playing)
+        {
+            MediaPlayer.Stop();
+        }
     }
 
     protected override void Update(GameTime gameTime)
@@ -155,7 +159,7 @@ public class Game1 : Core
         Circle batBounds = new Circle(
             (int)(newBatPosition.X + (_bat.Width * 0.5f)),
             (int)(newBatPosition.Y + (_bat.Height * 0.5f)),
-            (int)(_bat.Width * 0.5f)
+            (int)(_bat.Width * 0.2f)
         );
 
         Vector2 normal = Vector2.Zero;
@@ -192,6 +196,9 @@ public class Game1 : Core
         {
             normal.Normalize();
             _batVelocity = Vector2.Reflect(_batVelocity, normal);
+            
+            // Play Bounce Sound Effect 
+            Audio.PlaySoundEffect(_bounceSoundEffect);
         }
 
         _batPosition = newBatPosition;
@@ -208,6 +215,9 @@ public class Game1 : Core
 
             // Assign a new random velocity to the bat
             AssignRandomBatVelocity();
+            
+            // Play Collect Sound effect.
+            Audio.PlaySoundEffect(_bounceSoundEffect);
         }
 
         base.Update(gameTime);
@@ -258,6 +268,26 @@ public class Game1 : Core
         if (Input.Keyboard.IsKeyDown(Keys.D) || Input.Keyboard.IsKeyDown(Keys.Right))
         {
             _slimePosition.X += speed;
+        }
+        
+        // If the M key is pressed, toggle mute state for audio.
+        if (Input.Keyboard.WasKeyJustPressed(Keys.M))
+        {
+            Audio.ToggleMute();
+        }
+
+        // If the + button is pressed, increase the volume.
+        if (Input.Keyboard.WasKeyJustPressed(Keys.OemPlus))
+        {
+            Audio.SongVolume += 0.1f;
+            Audio.SoundEffectVolume += 0.1f;
+        }
+
+        // If the - button was pressed, decrease the volume.
+        if (Input.Keyboard.WasKeyJustPressed(Keys.OemMinus))
+        {
+            Audio.SongVolume -= 0.1f;
+            Audio.SoundEffectVolume -= 0.1f;
         }
     }
 
@@ -321,14 +351,13 @@ public class Game1 : Core
 
         // Begin the sprite batch to prepare for rendering.
         SpriteBatch.Begin(samplerState: SamplerState.PointClamp);
-
-        {
-            foreach (var level in _world.Levels)
-            {
-                _renderer.RenderPrerenderedLevel(level);
-            }
-        }
-
+        
+        _tilemap.Draw(SpriteBatch);
+        
+        _slime.Draw(SpriteBatch, _slimePosition);
+        
+        _bat.Draw(SpriteBatch, _batPosition);
+        
         // Always end the sprite batch when finished.
         SpriteBatch.End();
 

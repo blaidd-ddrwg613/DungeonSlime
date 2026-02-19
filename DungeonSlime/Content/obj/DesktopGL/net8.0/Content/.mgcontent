@@ -4,6 +4,9 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/Audio/bounce.wav</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/Audio/collect.wav</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/Audio/theme.ogg</File>
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas.png</File>
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/logo.png</File>
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-characters-default.png</File>
@@ -11,6 +14,9 @@
     <File>C:/Code/DungeonSlime/DungeonSlime/Content/test.ldtk</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File>images/spritesheet-characters.png</File>
