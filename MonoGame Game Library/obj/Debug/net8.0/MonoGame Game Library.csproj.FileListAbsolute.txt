@@ -11,3 +11,16 @@ C:\Code\DungeonSlime\MonoGame Game Library\obj\Debug\net8.0\refint\MonoGame Game
 C:\Code\DungeonSlime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.pdb
 C:\Code\DungeonSlime\MonoGame Game Library\obj\Debug\net8.0\ref\MonoGame Game Library.dll
 C:\Code\DungeonSlime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.sourcelink.json
+E:\Code\Dungeon Slime\MonoGame Game Library\bin\Debug\net8.0\MonoGame Game Library.deps.json
+E:\Code\Dungeon Slime\MonoGame Game Library\bin\Debug\net8.0\MonoGame Game Library.dll
+E:\Code\Dungeon Slime\MonoGame Game Library\bin\Debug\net8.0\MonoGame Game Library.pdb
+E:\Code\Dungeon Slime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.csproj.AssemblyReference.cache
+E:\Code\Dungeon Slime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Dungeon Slime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.AssemblyInfoInputs.cache
+E:\Code\Dungeon Slime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.AssemblyInfo.cs
+E:\Code\Dungeon Slime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.csproj.CoreCompileInputs.cache
+E:\Code\Dungeon Slime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.sourcelink.json
+E:\Code\Dungeon Slime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.dll
+E:\Code\Dungeon Slime\MonoGame Game Library\obj\Debug\net8.0\refint\MonoGame Game Library.dll
+E:\Code\Dungeon Slime\MonoGame Game Library\obj\Debug\net8.0\MonoGame Game Library.pdb
+E:\Code\Dungeon Slime\MonoGame Game Library\obj\Debug\net8.0\ref\MonoGame Game Library.dll

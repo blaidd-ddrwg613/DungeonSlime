@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\DungeonSlime\\DungeonSlime\\DungeonSlime.csproj": {}
+    "E:\\Code\\Dungeon Slime\\DungeonSlime\\DungeonSlime.csproj": {}
   },
   "projects": {
-    "C:\\Code\\DungeonSlime\\DungeonSlime\\DungeonSlime.csproj": {
+    "E:\\Code\\Dungeon Slime\\DungeonSlime\\DungeonSlime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\DungeonSlime\\DungeonSlime\\DungeonSlime.csproj",
+        "projectUniqueName": "E:\\Code\\Dungeon Slime\\DungeonSlime\\DungeonSlime.csproj",
         "projectName": "DungeonSlime",
-        "projectPath": "C:\\Code\\DungeonSlime\\DungeonSlime\\DungeonSlime.csproj",
+        "projectPath": "E:\\Code\\Dungeon Slime\\DungeonSlime\\DungeonSlime.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\DungeonSlime\\DungeonSlime\\obj\\",
+        "outputPath": "E:\\Code\\Dungeon Slime\\DungeonSlime\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Code\\DungeonSlime\\MonoGame Game Library\\MonoGame Game Library.csproj": {
-                "projectPath": "C:\\Code\\DungeonSlime\\MonoGame Game Library\\MonoGame Game Library.csproj"
+              "E:\\Code\\Dungeon Slime\\MonoGame Game Library\\MonoGame Game Library.csproj": {
+                "projectPath": "E:\\Code\\Dungeon Slime\\MonoGame Game Library\\MonoGame Game Library.csproj"
               }
             }
           }
@@ -81,19 +75,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.22, 8.0.22]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.22, 8.0.22]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.22, 8.0.22]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.22, 8.0.22]"
             }
           ],
           "frameworkReferences": {
@@ -101,32 +95,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\danie\\.dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Code\\DungeonSlime\\MonoGame Game Library\\MonoGame Game Library.csproj": {
+    "E:\\Code\\Dungeon Slime\\MonoGame Game Library\\MonoGame Game Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\DungeonSlime\\MonoGame Game Library\\MonoGame Game Library.csproj",
+        "projectUniqueName": "E:\\Code\\Dungeon Slime\\MonoGame Game Library\\MonoGame Game Library.csproj",
         "projectName": "MonoGame Game Library",
-        "projectPath": "C:\\Code\\DungeonSlime\\MonoGame Game Library\\MonoGame Game Library.csproj",
+        "projectPath": "E:\\Code\\Dungeon Slime\\MonoGame Game Library\\MonoGame Game Library.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\DungeonSlime\\MonoGame Game Library\\obj\\",
+        "outputPath": "E:\\Code\\Dungeon Slime\\MonoGame Game Library\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -155,10 +143,13 @@
               "target": "Package",
               "version": "[1.8.1, )"
             },
-            "MonoGame.Framework.DesktopGL": {
-              "suppressParent": "All",
+            "LDtkMonogame.ContentPipeline": {
               "target": "Package",
-              "version": "[3.8.*, )"
+              "version": "[1.8.1, )"
+            },
+            "MonoGame.Framework.Content.Pipeline": {
+              "target": "Package",
+              "version": "[3.8.4.1, )"
             }
           },
           "imports": [
@@ -175,15 +166,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.22, 8.0.22]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.22, 8.0.22]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.23, 8.0.23]"
+              "version": "[8.0.22, 8.0.22]"
             }
           ],
           "frameworkReferences": {
@@ -191,7 +182,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\danie\\.dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
