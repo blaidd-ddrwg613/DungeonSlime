@@ -43,9 +43,86 @@ C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\tilemap-defini
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\spritesheet-tiles-default.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\LDtkMonogame.dll
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\test.xnb
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\mgcb.tool.restore
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.dll
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\refint\DungeonSlime.dll
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.pdb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas-definition.xml
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\images\spritesheet-characters.xml
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\images\tilemap-definition.xml
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\images\atlas.xnb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\images\logo.xnb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\images\spritesheet-characters.xnb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\images\spritesheet-tiles-default.xnb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\DungeonSlime.exe
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\DungeonSlime.deps.json
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\DungeonSlime.runtimeconfig.json
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\DungeonSlime.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\DungeonSlime.pdb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\LDtkMonogame.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\MonoGame.Framework.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\NVorbis.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.a
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.a
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.a
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-arm64\native\libopenal.so
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\MonoGame Game Library.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\MonoGame Game Library.pdb
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.csproj.AssemblyReference.cache
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.AssemblyInfoInputs.cache
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.AssemblyInfo.cs
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.csproj.CoreCompileInputs.cache
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.sourcelink.json
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\DungeonS.106F46AA.Up2Date
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.genruntimeconfig.cache
+E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\ref\DungeonSlime.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\AssimpNetter.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\BCnEncoder.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\LDtk.ContentPipeline.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\KtxSharp.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Microsoft.Toolkit.HighPerformance.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\CppNet.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\MonoGame.Framework.Content.Pipeline.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\MonoGame.Tool.Basisu.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\MonoGame.Tool.Crunch.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\MonoGame.Tool.FFmpeg.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\MonoGame.Tool.FFprobe.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\SharpDX.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\SharpDX.D3DCompiler.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-arm64\native\libassimp.so
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-x64\native\libassimp.so
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\osx-arm64\native\libassimp.dylib
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\osx-x64\native\libassimp.dylib
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\assimp.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x86\native\assimp.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\libmojoshader_64.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-x64\native\libfreeimage.so
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\osx\native\libfreeimage.dylib
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\FreeImage.dll
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-x64\native\libfreetype.so
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\osx\native\libfreetype.dylib
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\freetype.dll
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\Audio\bounce.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\Audio\collect.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\Audio\theme.ogg
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\Audio\theme.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\fonts\04B_30.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\fonts\04B_30_5x.xnb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\Audio\bounce.xnb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\Audio\collect.xnb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\Audio\theme.ogg
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\Audio\theme.xnb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\fonts\04B_30.xnb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\fonts\04B_30_5x.xnb
+E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\images\background-pattern.xnb

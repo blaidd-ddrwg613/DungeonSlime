@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-tiles-default.png</SourceFile>
-  <SourceTime>2026-02-17T02:34:59.4841068-05:00</SourceTime>
-  <DestFile>C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/spritesheet-tiles-default.xnb</DestFile>
-  <DestTime>2026-02-18T04:47:32.8642894-05:00</DestTime>
+  <SourceFile>E:/Code/Dungeon Slime/DungeonSlime/Content/images/spritesheet-tiles-default.png</SourceFile>
+  <SourceTime>2026-02-18T07:26:06.7974955-05:00</SourceTime>
+  <DestFile>E:/Code/Dungeon Slime/DungeonSlime/Content/bin/DesktopGL/Content/images/spritesheet-tiles-default.xnb</DestFile>
+  <DestTime>2026-02-19T07:44:37.3855347-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-06-02T06:31:02-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
