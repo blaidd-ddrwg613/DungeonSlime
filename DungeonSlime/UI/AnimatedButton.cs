@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Gum.DataTypes;
 using Gum.DataTypes.Variables;
 using Gum.Forms.Controls;
@@ -6,8 +6,8 @@ using Gum.Forms.DefaultVisuals.V3;
 using Gum.Graphics.Animation;
 using Gum.Managers;
 using Microsoft.Xna.Framework.Input;
-using MonoGame_Game_Library.Graphics;
 using MonoGameGum.GueDeriving;
+using MonoGameLibrary.Graphics;
 
 namespace DungeonSlime.UI;
 
@@ -23,7 +23,7 @@ internal class AnimatedButton : Button
     /// <param name="atlas">The texture atlas containing button graphics and animations</param>
     public AnimatedButton(TextureAtlas atlas)
     {
-        // Each Forms control has a general Visual property that
+        // Each Forms conrol has a general Visual property that
         // has properties shared by all control types. This Visual
         // type matches the Forms type. It can be casted to access
         // controls-specific properties.
@@ -40,7 +40,7 @@ internal class AnimatedButton : Button
         background.Texture = atlas.Texture;
         background.TextureAddress = TextureAddress.Custom;
         background.Color = Microsoft.Xna.Framework.Color.White;
-        // texture coordinates for the background are set down below
+        // texture coordinates for the background are set by AnimationChains below
 
         TextRuntime textInstance = buttonVisual.TextInstance;
         textInstance.Text = "START";
@@ -146,7 +146,6 @@ internal class AnimatedButton : Button
             // Left arrow navigates to previous control
             HandleTab(TabDirection.Up, loop: true);
         }
-
         if (e.Key == Keys.Right)
         {
             // Right arrow navigates to next control

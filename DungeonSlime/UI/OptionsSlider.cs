@@ -1,14 +1,17 @@
-﻿using System;
+using System;
 using Gum.DataTypes;
 using Gum.DataTypes.Variables;
-using Gum.Forms.Controls;
 using Gum.Managers;
 using Microsoft.Xna.Framework;
-using MonoGame_Game_Library.Graphics;
+using Gum.Forms.Controls;
 using MonoGameGum.GueDeriving;
+using MonoGameLibrary.Graphics;
 
 namespace DungeonSlime.UI;
 
+/// <summary>
+/// A custom slider control that inherits from Gum's Slider class.
+/// </summary>
 public class OptionsSlider : Slider
 {
     // Reference to the text label that displays the slider's title

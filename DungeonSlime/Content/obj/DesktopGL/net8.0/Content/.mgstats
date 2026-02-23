@@ -3,6 +3,7 @@ Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Siz
 "C:/Code/DungeonSlime/DungeonSlime/Content/Audio/collect.wav","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/Audio/collect.xnb","SoundEffectProcessor","SoundEffectContent",22092,22153,0.1048256
 "C:/Code/DungeonSlime/DungeonSlime/Content/Audio/theme.ogg","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/Audio/theme.xnb","SongProcessor","SongContent",1079706,123,0.6543033
 "C:/Code/DungeonSlime/DungeonSlime/Content/Audio/ui.wav","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/Audio/ui.xnb","SoundEffectProcessor","SoundEffectContent",2032,2093,0.0988537
+"C:/Code/DungeonSlime/DungeonSlime/Content/effects/grayscaleEffect.fx","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/effects/grayscaleEffect.xnb","EffectProcessor","CompiledEffectContent",1512,953,0.2747405
 "C:/Code/DungeonSlime/DungeonSlime/Content/fonts/04B_30_5x.spritefont","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/fonts/04B_30_5x.xnb","FontDescriptionProcessor","SpriteFontContent",500,1053722,0.1941
 "C:/Code/DungeonSlime/DungeonSlime/Content/fonts/04b_30.fnt","C:\Code\DungeonSlime\DungeonSlime\Content\bin\DesktopGL\Content\fonts/04b_30.fnt","CopyItem","File",11127,11127,0.002128
 "C:/Code/DungeonSlime/DungeonSlime/Content/fonts/04B_30.spritefont","C:/Code/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/fonts/04B_30.xnb","FontDescriptionProcessor","SpriteFontContent",2075,70682,0.0141333

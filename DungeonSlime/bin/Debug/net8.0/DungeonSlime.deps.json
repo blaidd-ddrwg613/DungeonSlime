@@ -10,7 +10,8 @@
         "dependencies": {
           "Gum.MonoGame": "2026.1.31.1",
           "LDtkMonogame": "1.8.1",
-          "MonoGame.Framework.DesktopGL": "3.8.4.1"
+          "MonoGame.Framework.DesktopGL": "3.8.4.1",
+          "MonoGameLibrary": "1.0.0"
         },
         "runtime": {
           "DungeonSlime.dll": {}
@@ -377,15 +378,9 @@
           }
         }
       },
-      "MonoGame Game Library/1.0.0": {
-        "dependencies": {
-          "Gum.MonoGame": "2026.1.31.1",
-          "LDtkMonogame": "1.8.1",
-          "LDtkMonogame.ContentPipeline": "1.8.1",
-          "MonoGame.Framework.Content.Pipeline": "3.8.4.1"
-        },
+      "MonoGameLibrary/1.0.0": {
         "runtime": {
-          "MonoGame Game Library.dll": {
+          "MonoGameLibrary.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -567,7 +562,7 @@
       "path": "textcopy/6.2.1",
       "hashPath": "textcopy.6.2.1.nupkg.sha512"
     },
-    "MonoGame Game Library/1.0.0": {
+    "MonoGameLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
