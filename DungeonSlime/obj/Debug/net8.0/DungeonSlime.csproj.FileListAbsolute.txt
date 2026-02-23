@@ -158,3 +158,4 @@ C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\FreeI
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-x64\native\libfreetype.so
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\osx\native\libfreetype.dylib
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\freetype.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\fonts\04b_30.fnt
