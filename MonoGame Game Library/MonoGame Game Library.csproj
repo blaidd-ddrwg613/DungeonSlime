@@ -4,6 +4,7 @@
         <RootNamespace>MonoGame_Game_Library</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
+        <PackageReference Include="Gum.MonoGame" Version="2026.1.31.1" />
         <PackageReference Include="LDtkMonogame" Version="1.8.1" />
         <PackageReference Include="LDtkMonogame.ContentPipeline" Version="1.8.1" />
         <PackageReference Include="MonoGame.Framework.Content.Pipeline" Version="3.8.4.1" />

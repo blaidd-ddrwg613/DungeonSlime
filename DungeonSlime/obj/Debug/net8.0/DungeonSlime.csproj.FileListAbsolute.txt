@@ -42,7 +42,6 @@ C:\Code\DungeonSlime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.sourcelink.json
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\tilemap-definition.xml
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\spritesheet-tiles-default.xnb
 C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\LDtkMonogame.dll
-C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\test.xnb
 E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\mgcb.tool.restore
 E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\DungeonSlime.dll
 E:\Code\Dungeon Slime\DungeonSlime\obj\Debug\net8.0\refint\DungeonSlime.dll
@@ -126,3 +125,36 @@ E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\Audio\theme.xnb
 E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\fonts\04B_30.xnb
 E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\fonts\04B_30_5x.xnb
 E:\Code\Dungeon Slime\DungeonSlime\bin\Debug\net8.0\Content\images\background-pattern.xnb
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\Audio\ui.xnb
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Content\images\background-pattern.xnb
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\AssimpNetter.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\BCnEncoder.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\GumCommon.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\FlatRedBall.InterpolationCore.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\MonoGameGum.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\LDtk.ContentPipeline.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\KtxSharp.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\Microsoft.Toolkit.HighPerformance.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\CppNet.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\MonoGame.Framework.Content.Pipeline.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\MonoGame.Tool.Basisu.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\MonoGame.Tool.Crunch.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\MonoGame.Tool.FFmpeg.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\MonoGame.Tool.FFprobe.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\SharpDX.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\SharpDX.D3DCompiler.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\TextCopy.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-arm64\native\libassimp.so
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-x64\native\libassimp.so
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\osx-arm64\native\libassimp.dylib
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\osx-x64\native\libassimp.dylib
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\assimp.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x86\native\assimp.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\libmojoshader_64.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-x64\native\libfreeimage.so
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\osx\native\libfreeimage.dylib
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\FreeImage.dll
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\linux-x64\native\libfreetype.so
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\osx\native\libfreetype.dylib
+C:\Code\DungeonSlime\DungeonSlime\bin\Debug\net8.0\runtimes\win-x64\native\freetype.dll

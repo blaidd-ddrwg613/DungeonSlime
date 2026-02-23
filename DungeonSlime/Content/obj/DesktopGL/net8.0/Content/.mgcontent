@@ -4,18 +4,20 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/Code/Dungeon Slime/DungeonSlime/Content/Audio/bounce.wav</File>
-    <File>E:/Code/Dungeon Slime/DungeonSlime/Content/Audio/collect.wav</File>
-    <File>E:/Code/Dungeon Slime/DungeonSlime/Content/Audio/theme.ogg</File>
-    <File>E:/Code/Dungeon Slime/DungeonSlime/Content/fonts/04B_30_5x.spritefont</File>
-    <File>E:/Code/Dungeon Slime/DungeonSlime/Content/fonts/04B_30.spritefont</File>
-    <File>E:/Code/Dungeon Slime/DungeonSlime/Content/images/atlas.png</File>
-    <File>E:/Code/Dungeon Slime/DungeonSlime/Content/images/background-pattern.png</File>
-    <File>E:/Code/Dungeon Slime/DungeonSlime/Content/images/logo.png</File>
-    <File>E:/Code/Dungeon Slime/DungeonSlime/Content/images/spritesheet-characters-default.png</File>
-    <File>E:/Code/Dungeon Slime/DungeonSlime/Content/images/spritesheet-tiles-default.png</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/Audio/bounce.wav</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/Audio/collect.wav</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/Audio/theme.ogg</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/Audio/ui.wav</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/fonts/04B_30_5x.spritefont</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/fonts/04B_30.spritefont</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/atlas.png</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/background-pattern.png</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/logo.png</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-characters-default.png</File>
+    <File>C:/Code/DungeonSlime/DungeonSlime/Content/images/spritesheet-tiles-default.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
